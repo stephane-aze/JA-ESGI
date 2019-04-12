@@ -1,7 +1,7 @@
 public class Rational {
     public static void main(String[] args) {
         String [] nombre1 = args[0].split("/");
-        String [] nombre2 = args[1].split("/");
+        String [] nombre2 = args[2].split("/");
         int n1=Integer.parseInt(nombre1[0]);
         int d1=Integer.parseInt(nombre1[1]);
         int n2=Integer.parseInt(nombre2[0]);
